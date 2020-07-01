@@ -61,7 +61,7 @@ const StartGameScreen = (props) => {
 				<Button
 					style={styles.button}
 					title="Start Game"
-					onPress={() => {}}
+					onPress={() => props.onStartGame(selectedNumber)}
 				/>
 			</Card>
 		);
