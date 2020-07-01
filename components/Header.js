@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
 		shadowRadius: 10,
 	},
 	headerTitle: {
+		fontFamily: "open-sans-bold",
 		color: "#E8E8E8",
 		fontSize: 20,
 	},
